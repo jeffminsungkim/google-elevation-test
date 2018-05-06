@@ -1,0 +1,22 @@
+{
+  "name": "google-elevation-test",
+  "version": "1.0.0",
+  "description": "Google Elevation API Test",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "JeffMinsungKim",
+  "license": "ISC",
+  "dependencies": {
+    "@google/maps": "^0.4.6",
+    "bluebird": "^3.5.1",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "nodemon": "^1.17.4"
+  }
+}

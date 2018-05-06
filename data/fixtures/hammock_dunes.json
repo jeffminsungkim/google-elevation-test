@@ -1,0 +1,180 @@
+{
+  "Hammockdunes": {
+    "ReesJonesCreek": {
+      "0": {
+        "holeIndex": 0,
+        "se": "ReesJonesCreek",
+        "name": "Hammock Dunes Club",
+        "clubcode": 109201003,
+        "g-coordinates": {
+          "lat": 29.6186748,
+          "lng": -81.2320518
+        },
+        "gf-coordinates": {
+          "lat": 29.6185746,
+          "lng": -81.2319579
+        },
+        "gb-coordinates": {
+          "lat": 29.6187751,
+          "lng": -81.2321349
+        },
+        "t1-coordinates": {
+          "lat": 29.6154943,
+          "lng": -81.2306597
+        },
+        "t2-coordinates": {
+          "lat": 29.6151492,
+          "lng": -81.2307402
+        },
+        "t3-coordinates": {
+          "lat": 29.6145103,
+          "lng": -81.2307053
+        },
+        "t4-coordinates": {
+          "lat": 29.6141792,
+          "lng": -81.2306946
+        }
+      },
+
+      "1": {
+        "holeIndex": 1,
+        "se": "ReesJonesCreek",
+        "name": "Hammock Dunes Club",
+        "clubcode": 109201003,
+        "g-coordinates": {
+          "lat": 29.6178447,
+          "lng": -81.2329557
+        },
+        "gf-coordinates": {
+          "lat": 29.617973,
+          "lng": -81.2329772
+        },
+        "gb-coordinates": {
+          "lat": 29.6176815,
+          "lng": -81.2329423
+        },
+        "t1-coordinates": {
+          "lat": 29.6187075,
+          "lng": -81.2331515
+        },
+        "t2-coordinates": {
+          "lat": 29.618922,
+          "lng": -81.2330576
+        },
+        "t3-coordinates": {
+          "lat": 29.6191435,
+          "lng": -81.2329021
+        },
+        "t4-coordinates": {
+          "lat": 29.619344,
+          "lng": -81.2327304
+        }
+      },
+
+      "2": {
+        "holeIndex": 2,
+        "se": "ReesJonesCreek",
+        "name": "Hammock Dunes Club",
+        "clubcode": 109201003,
+        "g-coordinates": {
+          "lat": 29.6220418,
+          "lng": -81.2336048
+        },
+        "gf-coordinates": {
+          "lat": 29.6219322,
+          "lng": -81.2335753
+        },
+        "gb-coordinates": {
+          "lat": 29.6221701,
+          "lng": -81.2336289
+        },
+        "t1-coordinates": {
+          "lat": 29.6194653,
+          "lng": -81.2334707
+        },
+        "t2-coordinates": {
+          "lat": 29.6191132,
+          "lng": -81.233763
+        },
+        "t3-coordinates": {
+          "lat": 29.6188777,
+          "lng": -81.2339025
+        },
+        "t4-coordinates": {
+          "lat": 29.6186748,
+          "lng": -81.2340313
+        }
+      },
+
+      "3": {
+        "holeIndex": 3,
+        "se": "ReesJonesCreek",
+        "name": "Hammock Dunes Club",
+        "clubcode": 109201003,
+        "g-coordinates": {
+          "lat": 29.6243035,
+          "lng": -81.2364292
+        },
+        "gf-coordinates": {
+          "lat": 29.6242079,
+          "lng": -81.2363085
+        },
+        "gb-coordinates": {
+          "lat": 29.6243548,
+          "lng": -81.2365633
+        },
+        "t1-coordinates": {
+          "lat": 29.623098,
+          "lng": -81.2350291
+        },
+        "t2-coordinates": {
+          "lat": 29.6228462,
+          "lng": -81.2338837
+        },
+        "t3-coordinates": {
+          "lat": 29.622767,
+          "lng": -81.2336102
+        },
+        "t4-coordinates": {
+          "lat": 29.622725,
+          "lng": -81.2333446
+        }
+      },
+
+      "4": {
+        "holeIndex": 4,
+        "se": "ReesJonesCreek",
+        "name": "Hammock Dunes Club",
+        "clubcode": 109201003,
+        "g-coordinates": {
+          "lat": 29.6244644,
+          "lng": -81.2338489
+        },
+        "gf-coordinates": {
+          "lat": 29.6243874,
+          "lng": -81.233983
+        },
+        "gb-coordinates": {
+          "lat": 29.6245133,
+          "lng": -81.233704
+        },
+        "t1-coordinates": {
+          "lat": 29.6253364,
+          "lng": -81.2370702
+        },
+        "t2-coordinates": {
+          "lat": 29.6252245,
+          "lng": -81.236802
+        },
+        "t3-coordinates": {
+          "lat": 29.6250706,
+          "lng": -81.2366035
+        },
+        "t4-coordinates": {
+          "lat": 29.6248981,
+          "lng": -81.2363433
+        }
+      }
+    }
+  }
+}
