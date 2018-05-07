@@ -183,6 +183,488 @@
           "lng": -81.2363433
         }
       }
+    },
+
+    "5": {
+      "holeIndex": 5,
+      "se": "ReesJonesCreek",
+      "name": "Hammock Dunes Club",
+      "clubcode": 109201003,
+      "coordinates": {
+        "gCoordinates": {
+          "lat": 29.6194676,
+          "lng": -81.2307912
+        },
+        "gfCoordinates": {
+          "lat": 29.6196122,
+          "lng": -81.2308984
+        },
+        "gbCoordinates": {
+          "lat": 29.6193161,
+          "lng": -81.2306731
+        },
+        "t1Coordinates": {
+          "lat": 29.6253364,
+          "lng": -81.2370702
+        },
+        "t2Coordinates": {
+          "lat": 29.6252245,
+          "lng": -81.236802
+        },
+        "t3Coordinates": {
+          "lat": 29.6232869,
+          "lng": -81.2324917
+        },
+        "t4Coordinates": {
+          "lat": 29.6235037,
+          "lng": -81.2326446
+        }
+      }
+    },
+
+    "6": {
+      "holeIndex": 6,
+      "se": "ReesJonesCreek",
+      "name": "Hammock Dunes Club",
+      "clubcode": 109201003,
+      "coordinates": {
+        "gCoordinates": {
+          "lat": 29.6186445,
+          "lng": -81.2269556
+        },
+        "gfCoordinates": {
+          "lat": 29.6185746,
+          "lng": -81.2271031
+        },
+        "gbCoordinates": {
+          "lat": 29.6186818,
+          "lng": -81.2268456
+        },
+        "t1Coordinates": {
+          "lat": 29.6180989,
+          "lng": -81.2277683
+        },
+        "t2Coordinates": {
+          "lat": 29.6181012,
+          "lng": -81.2281224
+        },
+        "t3Coordinates": {
+          "lat": 29.6181758,
+          "lng": -81.2284925
+        },
+        "t4Coordinates": {
+          "lat": 29.6183274,
+          "lng": -81.2287956
+        }
+      }
+    },
+
+    "7": {
+      "holeIndex": 7,
+      "se": "ReesJonesCreek",
+      "name": "Hammock Dunes Club",
+      "clubcode": 109201003,
+      "coordinates": {
+        "gCoordinates": {
+          "lat": 29.6168024,
+          "lng": -81.2274706
+        },
+        "gfCoordinates": {
+          "lat": 29.6168887,
+          "lng": -81.2273687
+        },
+        "gbCoordinates": {
+          "lat": 29.6167115,
+          "lng": -81.2275591
+        },
+        "t1Coordinates": {
+          "lat": 29.6181735,
+          "lng": -81.2252148
+        },
+        "t2Coordinates": {
+          "lat": 29.618423,
+          "lng": -81.2250459
+        },
+        "t3Coordinates": {
+          "lat": 29.6186189,
+          "lng": -81.224783
+        },
+        "t4Coordinates": {
+          "lat": 29.6187961,
+          "lng": -81.2244826
+        }
+      }
+    },
+
+    "8": {
+      "holeIndex": 8,
+      "se": "ReesJonesCreek",
+      "name": "Hammock Dunes Club",
+      "clubcode": 109201003,
+      "coordinates": {
+        "gCoordinates": {
+          "lat": 29.6134913,
+          "lng": -81.2293428
+        },
+        "gfCoordinates": {
+          "lat": 29.6136428,
+          "lng": -81.2293347
+        },
+        "gbCoordinates": {
+          "lat": 29.61337,
+          "lng": -81.2293374
+        },
+        "t1Coordinates": {
+          "lat": 29.6161169,
+          "lng": -81.2290719
+        },
+        "t2Coordinates": {
+          "lat": 29.6164713,
+          "lng": -81.2292462
+        },
+        "t3Coordinates": {
+          "lat": 29.6167395,
+          "lng": -81.2293294
+        },
+        "t4Coordinates": {
+          "lat": 29.6170146,
+          "lng": -81.2293991
+        }
+      }
+    },
+
+    "9": {
+      "holeIndex": 9,
+      "se": "ReesJonesCreek",
+      "name": "Hammock Dunes Club",
+      "clubcode": 109201003,
+      "coordinates": {
+        "gCoordinates": {
+          "lat": 29.607272,
+          "lng": -81.2271943
+        },
+        "gfCoordinates": {
+          "lat": 29.6073863,
+          "lng": -81.2271755
+        },
+        "gbCoordinates": {
+          "lat": 29.6071717,
+          "lng": -81.2272185
+        },
+        "t1Coordinates": {
+          "lat": 29.6107443,
+          "lng": -81.2279132
+        },
+        "t2Coordinates": {
+          "lat": 29.6109425,
+          "lng": -81.2281653
+        },
+        "t3Coordinates": {
+          "lat": 29.61122,
+          "lng": -81.2285113
+        },
+        "t4Coordinates": {
+          "lat": 29.6113623,
+          "lng": -81.228801
+        }
+      }
+    },
+
+    "10": {
+      "holeIndex": 10,
+      "se": "ReesJonesCreek",
+      "name": "Hammock Dunes Club",
+      "clubcode": 109201003,
+      "coordinates": {
+        "gCoordinates": {
+          "lat": 29.6037786,
+          "lng": -81.2256708
+        },
+        "gfCoordinates": {
+          "lat": 29.6038906,
+          "lng": -81.2256842
+        },
+        "gbCoordinates": {
+          "lat": 29.60369,
+          "lng": -81.2256655
+        },
+        "t1Coordinates": {
+          "lat": 29.6059964,
+          "lng": -81.2259149
+        },
+        "t2Coordinates": {
+          "lat": 29.6062273,
+          "lng": -81.2260463
+        },
+        "t3Coordinates": {
+          "lat": 29.6063882,
+          "lng": -81.2262636
+        },
+        "t4Coordinates": {
+          "lat": 29.6065211,
+          "lng": -81.2266016
+        }
+      }
+    },
+
+    "11": {
+      "holeIndex": 11,
+      "se": "ReesJonesCreek",
+      "name": "Hammock Dunes Club",
+      "clubcode": 109201003,
+      "coordinates": {
+        "gCoordinates": {
+          "lat": 29.6027525,
+          "lng": -81.2240937
+        },
+        "gfCoordinates": {
+          "lat": 29.6026709,
+          "lng": -81.2241983
+        },
+        "gbCoordinates": {
+          "lat": 29.6028271,
+          "lng": -81.223973
+        },
+        "t1Coordinates": {
+          "lat": 29.6022488,
+          "lng": -81.2247481
+
+        },
+        "t2Coordinates": {
+          "lat": 29.6021765,
+          "lng": -81.2249574
+        },
+        "t3Coordinates": {
+          "lat": 29.6030837,
+          "lng": -81.2252497
+        },
+        "t4Coordinates": {
+          "lat": 29.6031583,
+          "lng": -81.2255126
+        }
+      }
+    },
+
+    "12": {
+      "holeIndex": 12,
+      "se": "ReesJonesCreek",
+      "name": "Hammock Dunes Club",
+      "clubcode": 109201003,
+      "coordinates": {
+        "gCoordinates": {
+          "lat": 29.606176,
+          "lng": -81.2213364
+        },
+        "gfCoordinates": {
+          "lat": 29.6060873,
+          "lng": -81.2214463
+        },
+        "gbCoordinates": {
+          "lat": 29.6062529,
+          "lng": -81.2212613
+        },
+        "t1Coordinates": {
+          "lat": 29.6041867,
+          "lng": -81.2230557
+        },
+        "t2Coordinates": {
+          "lat": 29.6040188,
+          "lng": -81.2232246
+        },
+        "t3Coordinates": {
+          "lat": 29.6038999,
+          "lng": -81.2234017
+        },
+        "t4Coordinates": {
+          "lat": 29.6036224,
+          "lng": -81.2236002
+        }
+      }
+    },
+
+    "13": {
+      "holeIndex": 13,
+      "se": "ReesJonesCreek",
+      "name": "Hammock Dunes Club",
+      "clubcode": 109201003,
+      "coordinates": {
+        "gCoordinates": {
+          "lat": 29.6108865,
+          "lng": -81.223737
+        },
+        "gfCoordinates": {
+          "lat": 29.6107839,
+          "lng": -81.2238362
+        },
+        "gbCoordinates": {
+          "lat": 29.6109822,
+          "lng": -81.2236672
+        },
+        "t1Coordinates": {
+          "lat": 29.6078877,
+          "lng": -81.2244772
+        },
+        "t2Coordinates": {
+          "lat": 29.607335,
+          "lng": -81.2239274
+        },
+        "t3Coordinates": {
+          "lat": 29.6068103,
+          "lng": -81.2236216
+        },
+        "t4Coordinates": {
+          "lat": 29.6065817,
+          "lng": -81.2235304
+        }
+      }
+    },
+
+    "14": {
+      "holeIndex": 14,
+      "se": "ReesJonesCreek",
+      "name": "Hammock Dunes Club",
+      "clubcode": 109201003,
+      "coordinates": {
+        "gCoordinates": {
+          "lat": 29.6146968,
+          "lng": -81.2234097
+        },
+        "gfCoordinates": {
+          "lat": 29.6146105,
+          "lng": -81.223348
+        },
+        "gbCoordinates": {
+          "lat": 29.6147691,
+          "lng": -81.2234714
+        },
+        "t1Coordinates": {
+          "lat": 29.6134913,
+          "lng": -81.2226641
+        },
+        "t2Coordinates": {
+          "lat": 29.6127194,
+          "lng": -81.2230879
+        },
+        "t3Coordinates": {
+          "lat": 29.6126145,
+          "lng": -81.2228652
+        },
+        "t4Coordinates": {
+          "lat": 29.6123813,
+          "lng": -81.2237209
+        }
+      }
+    },
+
+    "15": {
+      "holeIndex": 15,
+      "se": "ReesJonesCreek",
+      "name": "Hammock Dunes Club",
+      "clubcode": 109201003,
+      "coordinates": {
+        "gCoordinates": {
+          "lat": 29.6167791,
+          "lng": -81.223627
+        },
+        "gfCoordinates": {
+          "lat": 29.6166719,
+          "lng": -81.2237021
+        },
+        "gbCoordinates": {
+          "lat": 29.6168747,
+          "lng": -81.2235492
+        },
+        "t1Coordinates": {
+          "lat": 29.6161705,
+          "lng": -81.2242144
+        },
+        "t2Coordinates": {
+          "lat": 29.6160773,
+          "lng": -81.2244397
+        },
+        "t3Coordinates": {
+          "lat": 29.6158791,
+          "lng": -81.224665
+        },
+        "t4Coordinates": {
+          "lat": 29.6156342,
+          "lng": -81.224783
+        }
+      }
+    },
+
+    "16": {
+      "holeIndex": 16,
+      "se": "ReesJonesCreek",
+      "name": "Hammock Dunes Club",
+      "clubcode": 109201003,
+      "coordinates": {
+        "gCoordinates": {
+          "lat": 29.6157858,
+          "lng": -81.2262099
+        },
+        "gfCoordinates": {
+          "lat": 29.6158674,
+          "lng": -81.2261322
+        },
+        "gbCoordinates": {
+          "lat": 29.6156878,
+          "lng": -81.2263306
+        },
+        "t1Coordinates": {
+          "lat": 29.6171849,
+          "lng": -81.2243244
+        },
+        "t2Coordinates": {
+          "lat": 29.6173807,
+          "lng": -81.2242385
+        },
+        "t3Coordinates": {
+          "lat": 29.6175673,
+          "lng": -81.2240642
+        },
+        "t4Coordinates": {
+          "lat": 29.618388,
+          "lng": -81.223576
+        }
+      }
+    },
+
+    "17": {
+      "holeIndex": 17,
+      "se": "ReesJonesCreek",
+      "name": "Hammock Dunes Club",
+      "clubcode": 109201003,
+      "coordinates": {
+        "gCoordinates": {
+          "lat": 29.6128057,
+          "lng": -81.2285408
+        },
+        "gfCoordinates": {
+          "lat": 29.6129386,
+          "lng": -81.2284898
+        },
+        "gbCoordinates": {
+          "lat": 29.6126891,
+          "lng": -81.2285998
+        },
+        "t1Coordinates": {
+          "lat": 29.6150116,
+          "lng": -81.2277039
+        },
+        "t2Coordinates": {
+          "lat": 29.6156645,
+          "lng": -81.2277656
+        },
+        "t3Coordinates": {
+          "lat": 29.6159094,
+          "lng": -81.2276422
+        },
+        "t4Coordinates": {
+          "lat": 29.6161332,
+          "lng": -81.2274438
+        }
+      }
     }
   }
 }
