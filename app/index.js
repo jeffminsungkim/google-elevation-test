@@ -11,8 +11,10 @@ module.exports = {
   getSingleGreenLocationByHoleId,
   getSingleTboxLocationByHoleId,
   getMultiGreenLocationsByEntireHoles,
+  getMultiGreenLocationsByEachHole,
   getMultiTboxLocationsByEntireHoles,
   getMultiTboxLocationsByEachHole,
+  getEntireLocationsByCourse,
   saveElevationAsJSON
 }
 
@@ -34,8 +36,8 @@ function saveElevationAsJSON(path, response) {
   });
 }
 
-function getSingleGreenLocationByHoleId(id) {
-  return hammockDunes.ReesJonesCreek[id].coordinates.gCoordinates;
+function getSingleGreenLocationByHoleId(hid) {
+  return hammockDunes.ReesJonesCreek[hid].coordinates.gCoordinates;
 }
 
 function getSingleTboxLocationByHoleId(tid, hid) {
@@ -45,8 +47,23 @@ function getSingleTboxLocationByHoleId(tid, hid) {
 function getMultiGreenLocationsByEntireHoles() {
   const coordinates = [];
 
-  for (let i = 0; i < hdLength; i++)
-    coordinates.push(hammockDunes.ReesJonesCreek[i].coordinates.gCoordinates);
+  for (let i = 0; i < hdLength; i++) {
+    for (let key in hammockDunes.ReesJonesCreek[i].coordinates) {
+      if (hammockDunes.ReesJonesCreek[i].coordinates.hasOwnProperty(key) && key.startsWith('g'))
+        coordinates.push(hammockDunes.ReesJonesCreek[i].coordinates[key]);
+    }
+  }
+
+  return coordinates;
+}
+
+function getMultiGreenLocationsByEachHole(hid) {
+  const coordinates = [];
+
+  for (let key in hammockDunes.ReesJonesCreek[hid].coordinates) {
+    if (hammockDunes.ReesJonesCreek[hid].coordinates.hasOwnProperty(key) && key.startsWith('g'))
+      coordinates.push(hammockDunes.ReesJonesCreek[hid].coordinates[key]);
+  }
 
   return coordinates;
 }
@@ -56,7 +73,7 @@ function getMultiTboxLocationsByEntireHoles() {
 
   for (let i = 0; i < hdLength; i++) {
     for (let key in hammockDunes.ReesJonesCreek[i].coordinates) {
-      if (hammockDunes.ReesJonesCreek[i].coordinates.hasOwnProperty(key))
+      if (hammockDunes.ReesJonesCreek[i].coordinates.hasOwnProperty(key) && key.startsWith('t'))
         coordinates.push(hammockDunes.ReesJonesCreek[i].coordinates[key]);
     }
   }
@@ -66,11 +83,24 @@ function getMultiTboxLocationsByEntireHoles() {
 
 function getMultiTboxLocationsByEachHole(hid) {
   const coordinates = [];
-  const holeCoordinate = hammockDunes.ReesJonesCreek[hid].coordinates;
 
-  for (let key in holeCoordinate) {
-    if (holeCoordinate.hasOwnProperty(key))
-      coordinates.push(holeCoordinate[key]);
+  for (let key in hammockDunes.ReesJonesCreek[hid].coordinates) {
+    if (hammockDunes.ReesJonesCreek[hid].coordinates.hasOwnProperty(key) && key.startsWith('t'))
+      coordinates.push(hammockDunes.ReesJonesCreek[hid].coordinates[key]);
+  }
+
+  return coordinates;
+}
+
+function getEntireLocationsByCourse(name) {
+  const coordinates = [];
+  const len = Object.keys(hammockDunes[name]).length;
+
+  for (let i = 0; i < len; i++) {
+    for (let key in hammockDunes[name][i].coordinates) {
+      if (hammockDunes[name][i].coordinates.hasOwnProperty(key))
+        coordinates.push(hammockDunes[name][i].coordinates[key]);
+    }
   }
 
   return coordinates;

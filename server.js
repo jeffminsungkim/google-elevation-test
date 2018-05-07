@@ -11,64 +11,74 @@ app.get('/', function (req, res) {
   res.send('Hello World!');
 });
 
-app.get('/test-elevation', (req, res) => {
-  m.getElevation({
-    lat: 40.7118,
-    lng: -111.9679
-  }).then((response) => {
-    const path = './data/elevation/test.json';
-    console.log('RESPONSE:', response);
+app.get('/elevation/:name', (req, res) => {
+  const courseName = req.params.name;
+
+  m.getElevation(m.getEntireLocationsByCourse(courseName)).then((response) => {
+    const path = `./data/elevation/HammockDunes/${courseName}/data.json`;
+
     m.saveElevationAsJSON(path, response);
     res.send(response);
   }).catch(err => console.error(err));
 });
 
-app.get('/elevation/green/:hid', (req, res) => {
+app.get('/elevation/left-green/hole/:hid', (req, res) => {
   const hid = req.params.hid;
 
   m.getElevation(m.getSingleGreenLocationByHoleId(hid)).then((response) => {
-    const path = `./data/elevation/HammockDunes/ReesJonesCreek/sp/green/green_hole_${hid}.json`;
+    const path = `./data/elevation/HammockDunes/ReesJonesCreek/single/green/left_green_hole_${hid}.json`;
 
     m.saveElevationAsJSON(path, response);
     res.send(response);
   }).catch(err => console.error(err));
 });
 
-app.get('/elevation/green/all', (req, res) => {
+app.get('/elevation/greens/all', (req, res) => {
   m.getElevation(m.getMultiGreenLocationsByEntireHoles()).then((response) => {
-    const path = `./data/elevation/HammockDunes/ReesJonesCreek/mp/green/green.json`;
+    const path = `./data/elevation/HammockDunes/ReesJonesCreek/batch/green/all.json`;
 
     m.saveElevationAsJSON(path, response);
     res.send(response);
   }).catch(err => console.error(err));
 });
 
-app.get('/elevation/tbox/all', (req, res) => {
+app.get('/elevation/greens/hole/:hid', (req, res) => {
+  const hid = req.params.hid;
+
+  m.getElevation(m.getMultiGreenLocationsByEachHole(hid)).then((response) => {
+    const path = `./data/elevation/HammockDunes/ReesJonesCreek/batch/green/green_hole_${hid}.json`;
+
+    m.saveElevationAsJSON(path, response);
+    res.send(response);
+  }).catch(err => console.error(err));
+});
+
+app.get('/elevation/tboxes/all', (req, res) => {
   m.getElevation(m.getMultiTboxLocationsByEntireHoles()).then((response) => {
-    const path = `./data/elevation/HammockDunes/ReesJonesCreek/mp/tbox/all_holes.json`;
+    const path = `./data/elevation/HammockDunes/ReesJonesCreek/batch/tbox/all.json`;
 
     m.saveElevationAsJSON(path, response);
     res.send(response);
   }).catch(err => console.error(err));
 });
 
-app.get('/elevation/tbox/all/hole/:hid', (req, res) => {
+app.get('/elevation/tboxes/hole/:hid', (req, res) => {
   const hid = req.params.hid;
 
   m.getElevation(m.getMultiTboxLocationsByEachHole(hid)).then((response) => {
-    const path = `./data/elevation/HammockDunes/ReesJonesCreek/mp/tbox/all_hole_${hid}.json`;
+    const path = `./data/elevation/HammockDunes/ReesJonesCreek/batch/tbox/tbox_hole_${hid}.json`;
 
     m.saveElevationAsJSON(path, response);
     res.send(response);
   }).catch(err => console.error(err));
 });
 
-app.get('/elevation/tbox/:tid/hole/:hid', (req, res) => {
+app.get('/elevation/tboxes/:tid/hole/:hid', (req, res) => {
   const hid = req.params.hid;
   const tid = req.params.tid;
 
   m.getElevation(m.getSingleTboxLocationByHoleId(tid, hid)).then((response) => {
-    const path = `./data/elevation/HammockDunes/ReesJonesCreek/sp/tbox/t${tid}_hole_${hid}.json`;
+    const path = `./data/elevation/HammockDunes/ReesJonesCreek/single/tbox/t${tid}_hole_${hid}.json`;
 
     m.saveElevationAsJSON(path, response);
     res.send(response);
